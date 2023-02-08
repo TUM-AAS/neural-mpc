@@ -1,0 +1,3 @@
+[submodule "ml-casadi"]
+	path = ml-casadi
+	url = https://github.com/TUM-AAS/ml-casadi

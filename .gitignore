@@ -1,0 +1,11 @@
+venv/*
+data/
+results/
+.idea/
+*.pyc
+ros_gp_mpc/acados_models/*
+c_generated_code/
+*.egg-info/
+dist/
+build/
+acados_models/
