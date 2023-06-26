@@ -95,7 +95,8 @@ If you use this code in an academic context, please cite the following publicati
 @article{salzmann2023neural,
   title={Real-time Neural-MPC: Deep Learning Model Predictive Control for Quadrotors and Agile Robotic Platforms},
   author={Salzmann, Tim and Kaufmann, Elia and Arrizabalaga, Jon and Pavone, Marco and Scaramuzza, Davide and Ryll, Markus},
-  journal={arXiv preprint arXiv:2203.07747},
+  journal={IEEE Robotics and Automation Letters},
+  doi={10.1109/LRA.2023.3246839},
   year={2023}
 }
 ```
