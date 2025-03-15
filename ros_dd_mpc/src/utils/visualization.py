@@ -12,7 +12,7 @@ this program. If not, see <http://www.gnu.org/licenses/>.
 """
 
 import json
-import tikzplotlib
+# import tikzplotlib
 
 import matplotlib.pyplot as plt
 import numpy as np

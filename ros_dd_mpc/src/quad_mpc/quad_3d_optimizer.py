@@ -144,7 +144,8 @@ class Quad3DOptimizer:
         self.quad_xdot = {}
         for dyn_model_idx in nominal_with_gp.keys():
             dyn = nominal_with_gp[dyn_model_idx]
-            self.quad_xdot[dyn_model_idx] = cs.Function('x_dot', [self.x, self.u], [dyn], ['x', 'u'], ['x_dot'])
+            self.quad_xdot[dyn_model_idx] = cs.Function(
+                'x_dot', [self.x, self.u], [dyn], ['x', 'u'], ['x_dot'], {'allow_free': True})
 
         # ### Setup and compile Acados OCP solvers ### #
         self.acados_ocp_solver = {}
